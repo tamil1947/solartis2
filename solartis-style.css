@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size:1rem;
+    font-weight: 400;
+    line-height: ;
+    color:#212529;
+    background-color: #fff;
+}
+body, p, a {
+    font-family: 'Work Sans', sans-serif!important;
+    
+}
+
+/*navbar*/
+.navbar .nav-toggler-icon{
+    display: none;
+    background-color: #0a1a30;
+    color: white !important;
+}
+.navbar{
+    padding: 0.8rem 7.2rem 0.8rem 7rem !important;
+
+}
+.navbar-nav{
+    align-items: center;
+    width: 90%;
+    justify-content: space-evenly;
+}
+.nav-link-button{
+    font-family: 'Work Sans', sans-serif!important;
+    padding: 10px 22px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background-color:#CB4C1F !important;
+    color: white !important;
+   
+}
+
+/*dropdown li */
+.dropdown-menu{
+  border: none !important;
+}
+.dropdown-menu_1{
+  width: 43rem;
+  margin-left: -12rem !important; 
+}
+.dropdown-menu .dropdown-menu-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: ;
+}
+.dropdown-menu .dropcontent-link{
+  width: 100%;
+  line-height:normal; 
+  padding:3px;
+  padding-top: 10px;
+  
+}
+
+.dropdown-menu .dropcontent-link ul :nth-child(2){
+  color: rgba(119, 119, 119, 0.822);
+  font-size: 14px;
+}
+.dropdown-menu .dropdown-menu-div a{
+  text-decoration: none;
+}
+.dropdown-menu-div li{
+  list-style-type:none;
+}
+.dropdown-menu .dropdown-menu-div h6{
+  width:100%; 
+  font-size: 15px;
+  color: #CB4C1F;
+}
+.dropdown-menu-div .dropcontent{
+  width: ;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-menu-div .dropcontent2{
+width:50% !important ;
+background-color:white;
+display: flex;
+flex-direction: column;
+}
+
+.dropdown-menu-div .dropcontent .dropcontent-link:hover{
+  background-color: rgba(220, 220, 220, 0.473);
+}
+.dropdown-menu-div .dropcontent2 .dropcontent-link:hover{
+  background-color: rgba(220, 220, 220, 0.473);
+}
+
+/*dropdown-menu_2
+second li
+*/
+.dropdown-menu_2{
+  width: 16rem;
+}
+
+
+
+
+/*Accordion*/
+.accordion-main-container{
+ background-color: #CB4C1F;
+}
+.accordion-container{
+   display: none;
+   min-height:40vh ;
+   background-color: #132c51; 
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-bottom: 13px;
+   transition:all 1s;
+}
+
+.accordion {
+    background-color: #132c51;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px !important;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  .panel ul li{
+    list-style-type: none ;
+  }
+  .panel ul li a{
+    color: #CB4C1F;
+    text-decoration: none;
+  }
+  
+  .active, .accordion:hover {
+    background-color: ;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: #132c51;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  /*section*/
+  .section-default{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+/*section1*/
+  .section1{
+    width: 100%;
+    min-height: 71vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./imges/section1background.webp);
+    background-repeat: no-repeat;
+  }
+  
+  .section1-content h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    color: #FFF;
+    width: 60%;
+    font-size: 48px;;
+    padding-left: 5rem;
+  }
+
+  /*section-2*/
+  .section2{
+    width: 100%;
+    background: url(https://www.solartis.com/hubfs/partnersbg.png)center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .section2-content-div{
+    width: 70%;
+  }
+  .section2-content-div h2{
+    text-align: center;
+    color: #086e70;
+    font-size: 32px;
+  }
+  .section2-logo-div p{
+    letter-spacing: normal;
+    font-size: 18px;
+    color: #7f7b79;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+  .section2-logo-div{
+    width: 60%;
+  }
+  .section2-logo-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap:30px;
+  }
+  .section2-logo-div img{
+    max-width: 100px;
+  }
+
+/*section3*/
+
+.section-3{
+  width: 100%;
+  min-height: 67vh;
+  background: radial-gradient(70.44% 430.32% at 29.56% 46.66%,#2e536c 0%,#142842 100%);
+}
+.section3-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+}
+.section3-card{
+  width:23rem;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f3f5; 
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 40%);
+  transition: all .3s;
+  cursor: pointer;
+  height: 15rem;
+  overflow: hidden;
+}
+.section3-card:hover{
+height:30rem;
+
+}
+.section3-card:hover{
+  height:26rem;
+}
+.section3-card:hover .section3-card-arrowicon{
+  display: none;
+}
+  
+
+.section3-card-header
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section3-card-header h5{
+  font-size: 24px;
+  font-weight: 500;
+
+}
+.section3-card-body p{
+  color: #1a2d44;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.card2-p1 
+{
+  color: #086E70 !important;
+}
+
+
+/*section4*/
+.section4{
+  padding:40px 10px 10px 10px;
+ background-color:#f0f3f5;
+ border-bottom: 2px solid black;
+}
+.section4 .row{
+  justify-content: center;
+  gap: 20px;
+}
+.section4-h3{
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #112e52;
+    margin: 0 0 40px 0;
+}
+.section4-card-default{
+  width: 23rem;
+  border-radius: 5px;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 20px 0px 20px;
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 40%);
+}
+.section4-carimg-1{
+  width: 70px;
+}
+.card-title-1{
+font-size: 18px;
+    color: #086e70;
+    font-weight: 600;
+    max-width: 230px;
+    padding-top: 10px;
+    text-align: center;
+}
+.card-content{
+  color: #112e52;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.section4-card-link{
+  font-size: 19px;
+  font-weight: 500;
+  color: #CB4C1F;
+}
+.section4-card1 .section4-card-link{
+margin-top: 40px;
+}
+.section4-card2 .section4-card-link{
+  margin-top: 40px;
+  }
+
+
+/*section5*/
+.section5{
+  background-color: #f0f3f5;
+  padding: 20px;
+  padding-bottom: 140px;
+}
+.section5-tittle{
+  font-size: 36px;
+    color: #112e52;
+    font-weight: 600;
+    letter-spacing: -0.64 px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.section-5-container{
+  width: 90%;
+  border-radius: 10px;
+  background-color: #112e52;
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: center;
+  align-items: center;
+}
+.section5 p{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.section5-contentdiv{
+  width: 50%;
+ padding-right:px;
+ padding-top: px;
+}
+
+/*section6*/
+.section6{
+  width: 100%;
+
+  background: radial-gradient(50% 485.75% at 50% 50%, #086E70 0%, #4FA1A3 100%);
+  position: relative;
+  padding: 70px 60px 0px 80px;
+}
+.container6-img{
+
+}
+.container6-img{
+
+  position:absolute;
+  right: 0px;
+  top: -124px;
+}
+.section6-p{
+  color: #FFF;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.section6-h2{
+  color: #FFF;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+.section6--container2-p{
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 10px;
+  padding-top: 3px;
+}
+.section6-container{
+  
+}
+
+.section6-div1{
+width: 60%;
+
+}
+
+.section-6-container2{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section6-div2{
+  width: 33%;
+}
+.section6-div3{
+  width: 33%;
+}
+.section6-btn{
+  padding: 25px 20px;
+}
+
+
+
+
+/*section7*/
+.section7{
+  padding: 5rem;
+  background-color: #f0f3f5;
+}
+.section7 h3{
+  text-align: center;
+  margin-bottom: 50px;
+  color: #112e52;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.section7 button{
+  background-color: #CB4C1F;
+  padding: 10px;
+  color: white;
+}
+
+/*footer*/
+.footer{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(https://www.solartis.com/hubfs/Ironpaper/footerbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #112E52;
+  padding:90px 40px 40px 40px;
+}
+.footer-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap:wrap ;
+}
+.footer-container a{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-container li{
+list-style-type: none;
+}
+.footer-div-1-icon{
+  margin-top: 30px;
+}
+.footer-div1{
+  border-right: 2px solid hsla(0,0%,100%,.8);
+  max-width: 350px;
+  padding: 0 15px;
+}
+.footer-div-3{
+  margin-left: 70px;
+}
+.footer-div2{
+  padding-top: 140px;
+}
+
+/*footer2*/
+.footer2-coniainer{
+display: flex;
+align-items: center;
+padding: 20px;
+background: #0d1e37;
+}  
+.footer2-coniainer a{
+  color: white !important;
+}
+@media(max-width:991px){
+    /*navbar*/
+    .navbar{
+        padding: 0.8rem 1rem 0.8rem 1rem !important;
+    
+    }
+    .navbar .nav-toggler-icon{
+        display: block !important;
+        border: none;
+        padding: 1.5rem 1.3rem;
+    }
+    .active{
+      display: block;
+      transition: all 1s;
+    }
+    /*section1*/
+    .section1-content h1{
+      width: 100%;
+      font-size: 40px;
+      padding-left: 1rem;
+    }
+    .section1 .container h1{
+    color: white !important;
+    width: 100%;
+  }
+  .section1{
+    width: 100%;
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./imges/section1background.webp);
+    background-position: center;
+  }
+
+  /*section2*/
+  .section2{
+    padding-top: 25px;
+  }
+  .section2-content-div{
+    width: 90%;
+  }
+  .section2-logo-div{
+    width: 80%;
+  }
+
+  /*sectiom3*/
+  .section-3{
+
+   padding: 10px;
+  }
+  .section3-card{
+    width:100%;
+  height: 22rem;
+  padding-bottom: ;
+  }
+  .section3-card:hover{
+    height:22rem;
+  }
+  .section3-card-arrowicon{
+    display: none;
+  }
+  .section4-card-default{
+    width: 90%;
+   
+}
+
+.section5{
+  background-color: #f0f3f5;
+  padding: 10px;
+}
+
+
+/*section6*/
+.section6{
+ padding-top: 20px;
+}
+
+.section6-div2{
+  width: 50%;
+}
+.section6-div3{
+  width: 50%;
+}
+.section6-div1{
+  width: 100%;
+  
+  }
+  .section6{
+   padding-top: 40px;
+  }
+  
+  .footer-div1{
+    border-right:none;
+   
+  }
+
+ 
+   
+
+}
+
+/*footer*/
+@media(max-width:881px){
+  .footer ul{
+    width: 100%;
+  }
+}
+
+
+
+    
+@media(max-width:767px){
+
+  .section4-card-default{
+    width: 80%;
+   
+}
+.section5{
+  background-color: #f0f3f5;
+  padding: 1px;
+}
+
+}
+
+@media(max-width:1250px){
+  .container6-img{
+   display: none;
+  }
+
+  
+/*section6*/
+
+
+.section6-div2{
+  width: 100%;
+}
+.section6-div3{
+  width: 100%;
+}
+.section6{
+  padding-top: 20px;
+ }
+
+
+ /*footer*/
+
+ .footer{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(https://www.solartis.com/hubfs/Ironpaper/footerbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #112E52;
+  padding:90px 10px 40px 40px;
+}
+ .footer-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap:wrap ;
+}
+.footer-container a{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-container li{
+list-style-type: none;
+}
+.footer-div-1-icon{
+  margin-top: 30px;
+}
+.footer-div1{
+  border-right: 0px solid hsla(0,0%,100%,.8);
+  max-width: 350px;
+  padding: 0 15px;
+}
+.footer-div-3{
+  margin-left: 0px;
+}
+.footer-div2{
+  padding-top: 140px;
+}
+
+}
